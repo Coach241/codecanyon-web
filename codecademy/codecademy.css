@@ -1,13 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    line-height: 1.5rem;
+}
 header{
     display: flex;
-}.gamut-r98xii-LayoutGrid-FooterNavLinksGrid {
-    padding: 2rem 0;
 }
-.gamut-r98xii-LayoutGrid-FooterNavLinksGrid {
+.Gparent
+{
+    padding: 0 50px;
+    display: flex;
+    *border: 1px solid blueviolet;
+    justify-content: flex-start;
+}
+/*.Gparent {
     grid-template-columns: repeat(12, minmax(0, 1fr));
     display: grid;
     width: 100%;
-}
-.Gparent{
+    justify-content: space-around;
+}*/
+.enfant {
+    /*display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: space-between;*/
     display: flex;
+    *border: 1px solid black;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: grid;
+    padding: 20px 0px;
+}
+.Penfant {
+    padding-left: 3rem;
+    *padding-right: 1rem;
+    *padding-top: 16px;
+    *border: 1px solid red;
+}
+
+.gamut-1htlgvz-Box {
+    
+}
+ul .list{
+    list-style: none;
+}
+.Fheading, .svgheading{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+.Fsubheading{
+    margin-bottom: 1rem;
+}
+.iconeF{
+    width: 1rem;
+    flex-direction: row;
+}
+ul.lienH{
+    display:flex;
+    justify-content: space-between;
+}
+footer{
+    background: #fff0e5;
+}
+ul.lienW{
+    display: flex;
+    max-height: 13rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+ul.lienW .list{
+    padding-left: 2rem;
+}
+.fbar{
+    display: flex;
+    justify-content: space-between;
 }
