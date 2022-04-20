@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Montserrat','Poppins',sans-serif;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+}
+.enfant{
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 266px;
+    height: 58px;
+    background-color: #10162f;
+    padding: 1rem;
+    margin:.8rem;
+
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,266px);
+    column-gap:2rem;
+}
+body{
+    background-color: black;
+}
+.profil{
+    border-radius: 50%;
+    width: 35px;
+}
+main{
+    padding: 64px;
+}
+.heading{
+    margin-bottom: 64px;
+}
+

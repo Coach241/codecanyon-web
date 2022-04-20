@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-file-include": "^2.3.0"
+  }
+}

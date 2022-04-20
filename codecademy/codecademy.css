@@ -1,0 +1,13 @@
+header{
+    display: flex;
+}.gamut-r98xii-LayoutGrid-FooterNavLinksGrid {
+    padding: 2rem 0;
+}
+.gamut-r98xii-LayoutGrid-FooterNavLinksGrid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    display: grid;
+    width: 100%;
+}
+.Gparent{
+    display: flex;
+}
