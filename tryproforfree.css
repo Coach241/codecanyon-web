@@ -1,0 +1,22 @@
+.div1{
+    position: relative;
+    left:600px;
+    bottom:970px;
+    width: 50%;
+}
+
+h1{
+    position: absolute;
+    font-size: 25px;
+}
+
+p{
+    position: absolute;
+    top:40px;
+}
+
+.button1{
+    position: absolute;
+    top:100px; 
+    border: solid 4px white;
+}
