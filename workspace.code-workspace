@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "codecademy-project",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "codecademy-project"
+	}
+}

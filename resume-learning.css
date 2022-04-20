@@ -1,0 +1,126 @@
+@font-face {
+    font-family:'apercu';
+    src: url('./fontcodecademy/apercu-regular-pro.woff');
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'apercu';
+    height: 60px;
+    padding: 30px;
+    font-size:medium
+}
+
+nav div 
+{
+    cursor: pointer;
+}
+
+nav :hover
+{
+    color: gold;
+}
+
+nav .trypro
+{
+    border: 2px solid rgb(255, 211, 0);
+    padding: 10px;
+    color: rgb(255, 211, 0);
+    border-radius: 3px;
+
+}
+
+.dash
+{
+    height: 7px;
+    width: 7px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 4%;
+    line-height: 60px ;
+
+}
+
+.f_icon
+{
+    width: 0px;
+    height: 5px;
+    transform: rotate(90deg);
+    position: relative;
+    left: 5%;
+    bottom: 15px;
+}
+
+.clock svg 
+{
+
+}
+
+.profil img
+{
+    width: 30px;
+    height:30px;
+    line-height: 70px;
+}
+
+#container
+{
+    display: flex;
+    
+    
+    
+}
+
+
+.block1
+{
+    background-color: white;
+    width: 33.33%;
+    height: 100vh;
+    border: 1px soild black;
+    
+}
+
+/* .block2
+{
+    background-color:black;
+    width:33.33%;
+    height: 100vh;
+    border: 1px soild black;
+ 
+} */
+
+.block3
+{
+    background-color: black; 
+    width:33.33%;
+    height: 100vh;
+    border: 1px soild white;
+
+}
+
+.mini-nav svg
+{
+
+}
+
+
+
+
+
+
+
