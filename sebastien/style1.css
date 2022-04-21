@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.waveback
+{
+    background-color:#233466;
+    height: 600px;
+}
+.wave2{
+    position: absolute;
+    right: 0;
+    width: ;
+}
+.bloctitre{
+    position: absolute;
+    right: 0;
+    top:5rem;
+    color:white;
+    max-width: 25%;
+}
+.right{
+    width: 620px;
+    color: white;
+    margin-left: 4rem;
+}
+.right p{
+    font-size: 20px;
+}
+.blocCentral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    top: 2rem;
+    left: 10rem;
+}
+.sectionA:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 510px;
+    line-height: 24px;
+    margin: 0px;
+    padding: 30px;
+    width: 420px;
+}
+button{
+    background-color: gold;
+}
+.supportingPointContainer{
+    width: 26%;
+    padding: 2rem;
+    position: relative;
+    left: 12rem;
+    top: 3rem;
+    text-align: center;
+}
+.supportingPointContainer2{
+    width: 26%;
+    padding: 2rem;
+    position: relative;
+    left: 33rem;
+    bottom:5rem ;
+    text-align: center;
+}
+.supportingPointContainer3{
+    width: 26%;
+    padding: 2rem;
+    position: relative;
+    left: 55rem;
+    bottom: 12rem;
+    text-align: center;
+}
+.trackDetailContainer__1sp2kRByI8EO0evGWviyu9{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+}
+.trackDetailNumber__24H03vH38piJYL-Mgmm_3S
+{
+    font-weight: bold;
+    font-size: 2rem;
+    color: grey;
+    margin: 2rem 3rem;
+}
+.moreTracksDetailLayout__3hhB227CTlSDck4HQ1Q7So{
+    background: none;
+    border: none;
+    padding: 2rem;
+}
+.blocCarreer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutCarreerbloc1{
+    background-color: #233466;
+    color: white;
+    font-size: 45px;
+    width: 624px;
+    line-height: 45px;
+    padding: 5rem;
+    height: 734px;
+}
+*span{
+    font-size: 5rem;
+    color: rgb(184, 6, 184);
+}
+.aboutCarreerbloc2{
+    text-align: center;
+    width: 25rem;  
+}
+.codePro{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+img{
+    width: 380px;
+}
+.bande{
+    display: flex;
+    align-items: center;
+    background-color: #5533ff;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    color: white;
+    margin: 2rem 0; 
+}
+.subsection{
+    border: 1px solid;
+    width: 288px;
+    height: 392px;
+    line-height: 1.5rem;
+    padding: 0 1rem;
+}
+.subbottom{
+    display: flex;
+    justify-content: space-around;
+}
+.centrer{
+    display: grid;
+    justify-content: center;
+}
+.video{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.tracksDetailLayout{
+    width: 900px;
+    margin-left: 20rem;
+}
+.tracksText{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+iframe{
+    margin: 2rem;
+}
+.textsize{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 3rem;
+}
+.sectionB{
+    margin: 2rem;
+}
+.section h3{
+    margin: 1rem;
+}
+.section{
+    margin-left: 1rem;
+}
+.leftside{
+    width: 429px;
+}
+.subsection img{
+    width: 160px;
+}
+.imageCentre{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.bottombloc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sections{
+    margin: 1rem;
+}
+.bottombloc h2{
+    margin: 1rem;
+}
+body{
+    font-family:Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight:24px;
+}
+h1{
+    font-size:64px;
+    font-weight:70.4px;
+}
+h2{
+    font-size:44px;
+    font-weight: 48.4px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 22px;
+}
+h5{font-size: 14.4px;
+    font-weight: 18.72px;
+}
+.sectionA ul li{
+    margin-left: 2rem;
+}
+.sectionA{
+    margin: 1rem;
+}

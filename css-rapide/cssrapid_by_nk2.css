@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------------------background------------------------ */
+.colorY {
+    color: #FFD300;
+}
+.absolute {
+    position: absolute;
+}
+.left0 {
+    left: 0;
+}
+.w100 {
+    width: 100px;
+}
+
+/* -----------partie des boutons--------- */
+.btn-small {
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+}
+.btn-very-small {
+    padding: 13px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.bleu {
+    color: #3A10E5;
+}
+
+
+.btn-normal {
+    padding: 13px 25px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-big {
+    padding: 20px 100px;
+    border: none;
+    cursor: pointer;
+}
+
+/* --------partie radius-------------- */
+
+.rd-small{
+    border-radius: 5px;
+}
+.rd-normal{
+    border-radius: 40px;
+}
+.rd-tl {
+    border-top-left-radius: 40px;
+}
+.rd-tr {
+    border-top-right-radius: 40px;
+}
+.rd-br {
+    border-bottom-right-radius: 40px;
+}
+.rd-bl {
+    border-bottom-left-radius: 40px;
+}
+/* --------------Faire des formes------------ */
+
+.circle {
+    border-radius: 50%;
+}
+
+/* -------------------container------------------- */
+
+.cont-100 {
+    padding: 0 100px;
+    height: auto;
+}
+.cont-150 {
+    padding: 0 150px;
+    height: auto;
+}
+.cont-center {
+    margin:auto;
+}
+.cont {
+    width: 100%;
+    
+}
+/* svg {
+    
+   
+}
+svg:hove {
+    background-color: rgb(219, 219, 219);
+} */
+
+/* ---------------Alignement de text-------------- */
+.center {
+    text-align: center;
+}
+.end {
+    text-align: end;
+}
+.justify {
+    text-align: justify;
+}
+.left {
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+/* -------------flex----------------- */
+
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: start;
+}
+.justify-end {
+    justify-content: end;
+}
+.flex-cx {
+    align-items: center;
+}
+.flex-end {
+    align-items: flex-end;
+}
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-column {
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+
+
+/* -------------grid----------------- */
+.grid {
+    display: grid;
+}
+.col4 {
+    grid-template-columns: repeat(4, 25%);
+    justify-content: center;
+}
+
+.col5 {
+    grid-template-columns: repeat(5, 20%);
+    justify-content: center;
+}
+
+.col3 {
+    grid-template-columns: repeat(3, 33.33%);
+    justify-content: center;
+}
+.col2 {
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+}
+
+.grid-child {
+    width: 100%;
+}
+.gap10 {
+    gap: 10px;
+}
+.gap20 {
+    gap: 20px;
+}
+.gap25{
+    gap: 25px;
+}
+.gap30 {
+    gap: 20px;
+}
+
+/* ----------partie animation --------- */
+.transition {
+    transition: all .3s ease;
+}
+.delay-transition {
+    transition-delay: 2s;
+}
+.delay-animation {
+    transition-delay: 2s;
+}
+
+
+.scale:hover {
+    transform: scale(1.1);
+}
+.rotate:hover {
+    transform: rotateZ(-2deg);
+}
+.rotate-all:hover {
+    transform: rotateZ(360deg);
+}
+.scale-rotate-left:hover {
+    transform: rotateZ(-2deg) scale(1.1);
+}
+.scale-rotate-right:hover {
+    transform: rotateZ(2deg) scale(1.1);
+}
+.shadow-anime:hover {
+    box-shadow: -8px 8px 0px #10162F;
+}
+/* ----------Animation-------- */
+.batement{
+    box-shadow: 0 0 0 0 black;
+    animation: batement 1.3s linear infinite;
+}
+.translateX:hover {
+    transform: translateX(5px);
+}
+
+@keyframes batement {
+    to {
+        box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.01);
+    }
+}
+
+.non:hover {
+    animation: non .4s forwards;
+}
+@keyframes non {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(-5px);
+    }
+    40% {
+        transform: translateX(5px);
+    }
+    60% {
+        transform: translateX(-5px);
+    }
+    80% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+.oui:hover {
+    animation: oui .4s forwards;
+}
+@keyframes oui {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-10px);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+.boule:hover {
+    animation: boule 4s infinite;
+}
+@keyframes boule {
+    0% {
+        transform: skewX(2deg);
+    }
+    20% {
+        transform: skewX(-2deg);
+    }
+    40% {
+        transform: skewX(2deg);
+    }
+    60% {
+        transform: skewX(-4deg);
+    }
+    80% {
+        transform: skewX(4deg);
+    }
+    100% {
+        transform: skewX(2deg);
+    }
+
+}
+
+.glisser-haut {
+    animation: haut .5s ease-out;
+}
+@keyframes haut {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.glisser-droite {
+    animation: droite .5s ease-out;
+}
+@keyframes droite {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+.glisser-gauche {
+    animation: gauche .5s ease-out;
+}
+@keyframes gauche {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+.glisser-bas {
+    animation: bas .5s ease-out;
+}
+@keyframes bas {
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* ------------cursor-------- */
+.pointer {
+    cursor: pointer;
+
+}
+
+
+
+
+/* ------------signifiant-------- */
+.liste {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2);
+}
+.h100{
+    height: 100%;
+}
+/* ----------------------------Page2 de chargement--------------------------- */
+.chargement {
+
+}
+
+/* ------------------flou d'un élément---------------------- */
+
+
+
+
+
+
+
+/* -------------partie media------------- */
+
+@media all and (max-width: 900px) {
+    .col4 {
+        grid-template-columns: repeat(3, 32%);
+    }
+    .col5 {
+        grid-template-columns: repeat(4, 20%);
+        justify-content: center;
+    }
+    .col3 {
+        grid-template-columns: repeat(2, 33.33%);
+        justify-content: center;
+    }
+    .col2 {
+        grid-template-columns: repeat(1, 50%);
+        justify-content: center;
+    }
+}
+@media all and (max-width: 650px) {
+    .col4 {
+        grid-template-columns: repeat(2, 32%);
+    } 
+    .col5 {
+        grid-template-columns: repeat(3, 20%);
+        justify-content: center;
+    }
+    .col3 {
+        grid-template-columns: repeat(1, 33.33%);
+        justify-content: center;
+    }
+    .col2 {
+        grid-template-columns: repeat(1, 50%);
+        justify-content: center;
+    }
+}
+@media all and (max-width: 400px) {
+    .col4 {
+        grid-template-columns: repeat(1, 32%);
+    } 
+    .col5 {
+        grid-template-columns: repeat(2, 20%);
+        justify-content: center;
+    }
+    .col2 {
+        grid-template-columns: repeat(1, 50%);
+        justify-content: center;
+    }
+}
+

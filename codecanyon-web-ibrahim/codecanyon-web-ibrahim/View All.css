@@ -1,0 +1,49 @@
+.h11{
+    position: relative;
+    top: 120px;
+    left:70px;
+    width:20%   
+}
+
+
+.img4{
+    position: relative;
+    top:150px;
+    left:70px;
+}
+
+body{
+    background-color:rgb(255, 241, 241);
+}
+.p3{
+    position: relative;
+    top:150px;
+    left:70px;
+    width:30%;
+}
+
+.img6{
+    position: relative;
+    top:200px;
+    left:70px;
+}
+
+.img7{
+    position: relative;
+    top:220px;
+    left:70px;
+}
+
+.a1{
+    color:blue;
+    text-decoration: none;
+    position: relative;
+    bottom:260px;
+    left:1100px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.a1:hover{
+    background-color: gainsboro;
+}
